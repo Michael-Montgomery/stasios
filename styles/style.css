@@ -225,6 +225,7 @@ summary {
 
     #video-wrapper {
         height: 65vh;
+        background-size: contain;
     }
 
     #our-story-left {
