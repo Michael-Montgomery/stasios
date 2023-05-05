@@ -218,16 +218,16 @@ summary {
 }
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 765px) {
     .toggle {
         display: none;
     }
 
     #video-wrapper {
-        height: 40vh;
+        height: 30vh;
         background-image: url('https://media1.orlandoweekly.com/orlando/imager/u/magnum/22195562/bartlettimage-stasio_s-8751.jpg?cb=1643758464');
         /* background-size: 100% 100%; */
-        background-size:34em;
+        background-size:40em;
         
         
     }
