@@ -71,7 +71,7 @@ header nav a img {
 #our-story-left {
     height: auto;
     background-color: black;
-    padding-top: 25px 0 10px 10px;
+    padding: 25px;
 }
 
 #our-story-left h2 {
@@ -95,6 +95,7 @@ header nav a img {
 
 #menu-wrapper {
     background-color: #CB2B35;
+    padding: 25px 0;
 }
 
 #menu-wrapper h2 {
@@ -224,7 +225,9 @@ summary {
 
     #video-wrapper {
         height: 40vh;
-        background-size: 100% 100%;
+        background-image: url('https://media1.orlandoweekly.com/orlando/imager/u/magnum/22195562/bartlettimage-stasio_s-8751.jpg?cb=1643758464');
+        /* background-size: 100% 100%; */
+        background-size:34em;
         
         
     }
