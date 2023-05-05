@@ -1,0 +1,265 @@
+* {
+    transition: all .4s;
+}
+
+p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 5em; 
+}
+
+body {
+    /* padding: none; */
+    margin: 0;
+    background-color: black;
+}
+
+#header-row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+header {
+    height: 75px;
+    background-color: black;
+}
+
+header nav {
+    text-align: center;
+    line-height: 75px;
+}
+
+header nav a {
+    color: white !important; 
+    margin: 0 4vw;
+    font-family: 'Parisienne', cursive;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color:#CB2B35;
+}
+
+header nav a img {
+    height: 75px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  #video-wrapper {
+    background-image: url('https://images.pexels.com/photos/6248790/pexels-photo-6248790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: calc(100vh - 75px);
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+#our-story-left {
+    height: 50vh;
+    background-color: black;
+    padding-top: 25px 0 10px 10px;
+}
+
+#our-story-left h2 {
+    color: white;
+    text-align: center;
+}
+
+#our-story-left p {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    text-indent: 15px;
+}
+
+#our-story-right {
+    height: 50vh;
+    background-image: url('https://images.pexels.com/photos/7799614/pexels-photo-7799614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+}
+
+/* cb2b35 */
+
+#menu-wrapper {
+    background-color: #CB2B35;
+}
+
+#menu-wrapper h2 {
+    text-align: center;
+    color: white;
+}
+
+details {
+    margin: 10px;
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+details table {
+    border: 2px solid black;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+details table tr:nth-child(even) {
+    background-color: black;
+    color: white;
+    
+}
+
+details table td {
+    text-align: center;
+}
+
+summary {
+    height: 50px;
+    width: 90vw;
+    background-color: black;
+    color: white;
+    /* display: none; */
+    margin: auto;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+#info-left {
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipOXtiP11gzcWdcWiTu_SP3XCdEofYGVWUl15eJL=s1360-w1360-h1020');
+    background-size: cover;
+    height: 50vh;
+}
+
+#info-right {
+    background-color: black;
+    height: 50vh;
+    padding-top: 40px;
+}
+
+#info-right a {
+    color: #0D6230;
+    text-decoration: none;
+}
+
+#info-right h2 {
+    color: white;
+    text-align: center;
+}
+
+#info-right p {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+#connect-left {
+    height: 20vh;
+    background-color: #0D6230;
+}
+
+#connect-left h2 {
+    color: white;
+    line-height: 20vh;
+    text-align: center;
+    font-size: 3em;
+}
+
+#connect-right {
+    height: 20vh;
+    padding-top: 5vh;
+}
+
+#connect-right ul {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#connect-right ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#connect-right ul li div {
+    display: inline-block;
+    background-color: #0D6230;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#connect-right ul li div a {
+    font-size: 4.5em;
+    color: white;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+}
+
+#footer p {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .toggle {
+        display: none;
+    }
+
+    #video-wrapper {
+        height: 65vh;
+    }
+
+    #our-story-left {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: auto;
+    }
+
+    #our-story-left p{
+        font-size: 1.1em;
+    }
+
+    #info-right {
+        height: auto;
+    }
+
+    #info-right h2 {
+        font-size: 2em;
+    }
+
+    #info-right p {
+        font-size: 1em;
+    }
+
+    #connect-left h2 {
+        font-size: 1.5em;
+    }
+
+    #connect-right ul li div {
+        height: 75px;
+        width: 75px;
+
+    }
+
+    #connect-right ul li div a {
+        font-size: 3em;
+    }
+}
