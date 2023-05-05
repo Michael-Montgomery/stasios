@@ -224,6 +224,7 @@ summary {
 
     #video-wrapper {
         height: 40vh;
+        background-size: 100% 100%;
         
         
     }
