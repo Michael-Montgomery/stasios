@@ -69,7 +69,7 @@ header nav a img {
   }
 
 #our-story-left {
-    height: 50vh;
+    height: auto;
     background-color: black;
     padding-top: 25px 0 10px 10px;
 }
@@ -87,8 +87,7 @@ header nav a img {
 }
 
 #our-story-right {
-    height: 50vh;
-    background-image: url('https://images.pexels.com/photos/7799614/pexels-photo-7799614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-image: url('https://images.pexels.com/photos/767086/pexels-photo-767086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
     background-size: cover;
 }
 
@@ -140,12 +139,12 @@ summary {
 #info-left {
     background-image: url('https://lh3.googleusercontent.com/p/AF1QipOXtiP11gzcWdcWiTu_SP3XCdEofYGVWUl15eJL=s1360-w1360-h1020');
     background-size: cover;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 #info-right {
     background-color: black;
-    height: 50vh;
+    height: auto;
     padding-top: 40px;
 }
 
